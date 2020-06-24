@@ -1,26 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react'
+import CardList from "./CardList"
+import {puppies} from "./Puppies"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default class App extends Component {
+
+    //ES7 React/Redux/GraphQL/React-Native snippets
+    //rconst
+    constructor(props) {
+        super(props)
+    
+        this.state = {
+             puppies: puppies,
+             imgp: 'puppies',
+             cardS: "mw5 h5"
+        }
+    }
+    
+
+    render() {
+
+
+        return (
+            <div>
+            
+                <CardList puppies={this.state.puppies} cardS={this.state.cardS} imgp={this.state.imgp}/>
+            </div>
+        )
+    }
 }
-
-export default App;
