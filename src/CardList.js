@@ -7,6 +7,7 @@ const CardList = ({ puppies, imgp, cardS }) => {
       {puppies.map((v, i) => {
         return (
           <Card
+            key={i}
             email={puppies[i].email}
             name={puppies[i].name}
             imgp={imgp}
