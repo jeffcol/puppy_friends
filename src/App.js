@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import CardList from "./CardList"
 import {puppies} from "./Puppies"
 import SearchBox from "./SearchBox"
+import "./App.css"
 
 export default class App extends Component {
 
@@ -29,7 +30,7 @@ export default class App extends Component {
 
         return (
             <div className="tc">
-                <h1>Puppy Friends</h1>
+                <h1 className="f1">Puppy Friends</h1>
                 <SearchBox updPuppy={this.updPuppy}/>
                 <CardList puppies={final_puppies} cardS={this.state.cardS} imgp={this.state.imgp}/>
             </div>

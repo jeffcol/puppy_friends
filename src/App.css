@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "GOODDC";
+    src: local("GOODDC"), url("GOODDC.TTF") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+h1 {
+    font-family: "GOODDC", fantasy;
+    font-weight: 200;
+}
