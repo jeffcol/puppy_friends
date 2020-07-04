@@ -3,7 +3,7 @@ import Card from "./Card";
 
 const CardList = ({ puppies, imgp, cardS }) => {
   return (
-    <div>
+    <div className="flex flex-wrap justify-between mw8">
       {puppies.map((v, i) => {
         return (
           <Card
