@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import CardList from "./CardList";
-import { puppies } from "./Puppies";
 import SearchBox from "./SearchBox";
 import "./App.css";
 
@@ -11,11 +10,21 @@ export default class App extends Component {
     super(props);
 
     this.state = {
-      puppies: puppies,
+      puppies: [],
       imgp: "puppies",
       cardS: "mw5 h5",
       search: "",
     };
+  }
+
+  componentDidMount() {
+    fetch("https://jsonplaceholder.typicode.com/users")
+      .then((file) => file.json())
+      .then((users) =>
+        this.setState({
+          puppies: users,
+        })
+      );
   }
 
   updPuppy = (event) => {
