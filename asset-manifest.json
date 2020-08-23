@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/jeffcol/puppy_friends/static/css/main.2ae47733.chunk.css",
+    "main.js": "/jeffcol/puppy_friends/static/js/main.42c6196c.chunk.js",
+    "main.js.map": "/jeffcol/puppy_friends/static/js/main.42c6196c.chunk.js.map",
+    "runtime-main.js": "/jeffcol/puppy_friends/static/js/runtime-main.0ef0cedd.js",
+    "runtime-main.js.map": "/jeffcol/puppy_friends/static/js/runtime-main.0ef0cedd.js.map",
+    "static/css/2.3c03f26f.chunk.css": "/jeffcol/puppy_friends/static/css/2.3c03f26f.chunk.css",
+    "static/js/2.de095742.chunk.js": "/jeffcol/puppy_friends/static/js/2.de095742.chunk.js",
+    "static/js/2.de095742.chunk.js.map": "/jeffcol/puppy_friends/static/js/2.de095742.chunk.js.map",
+    "index.html": "/jeffcol/puppy_friends/index.html",
+    "precache-manifest.c9d51f8acfaff8d080e2ff483edad31a.js": "/jeffcol/puppy_friends/precache-manifest.c9d51f8acfaff8d080e2ff483edad31a.js",
+    "service-worker.js": "/jeffcol/puppy_friends/service-worker.js",
+    "static/css/2.3c03f26f.chunk.css.map": "/jeffcol/puppy_friends/static/css/2.3c03f26f.chunk.css.map",
+    "static/css/main.2ae47733.chunk.css.map": "/jeffcol/puppy_friends/static/css/main.2ae47733.chunk.css.map",
+    "static/js/2.de095742.chunk.js.LICENSE.txt": "/jeffcol/puppy_friends/static/js/2.de095742.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/jeffcol/puppy_friends/static/media/GOODDC.572bb423.TTF"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0ef0cedd.js",
+    "static/css/2.3c03f26f.chunk.css",
+    "static/js/2.de095742.chunk.js",
+    "static/css/main.2ae47733.chunk.css",
+    "static/js/main.42c6196c.chunk.js"
+  ]
+}
