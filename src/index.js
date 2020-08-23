@@ -7,7 +7,9 @@ import "tachyons";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <main className="tc">
+      <App />
+    </main>
   </React.StrictMode>,
   document.getElementById("root")
 );

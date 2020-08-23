@@ -38,18 +38,22 @@ export default class App extends Component {
       return puppy.name.toLowerCase().includes(this.state.search.toLowerCase());
     });
 
-    return (
-      <div className="flex justify-center">
-        <div className="flex flex-column tc">
-          <h1 className="f1">Puppy Friends</h1>
-          <SearchBox updPuppy={this.updPuppy} />
-          <CardList
-            puppies={final_puppies}
-            cardS={this.state.cardS}
-            imgp={this.state.imgp}
-          />
+    if (this.state.puppies.length === 0) {
+      return <h1>Without puppies</h1>;
+    } else {
+      return (
+        <div className="flex justify-center">
+          <div className="flex flex-column tc">
+            <h1 className="f1">Puppy Friends</h1>
+            <SearchBox updPuppy={this.updPuppy} />
+            <CardList
+              puppies={final_puppies}
+              cardS={this.state.cardS}
+              imgp={this.state.imgp}
+            />
+          </div>
         </div>
-      </div>
-    );
+      );
+    }
   }
 }
