@@ -11,7 +11,7 @@ const CardList = ({ puppies, imgp, cardS }) => {
             email={puppies[i].email}
             name={puppies[i].name}
             imgp={imgp}
-            img={`/img/${i}.jpg`}
+            img={process.env.PUBLIC_URL +`/img/${i}.jpg`}
             cardS={cardS}
           />
         );
