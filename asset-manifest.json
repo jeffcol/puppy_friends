@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/puppy_friends/static/css/main.9684827e.chunk.css",
-    "main.js": "/puppy_friends/static/js/main.3df445f9.chunk.js",
-    "main.js.map": "/puppy_friends/static/js/main.3df445f9.chunk.js.map",
+    "main.js": "/puppy_friends/static/js/main.c6c17733.chunk.js",
+    "main.js.map": "/puppy_friends/static/js/main.c6c17733.chunk.js.map",
     "runtime-main.js": "/puppy_friends/static/js/runtime-main.51bc07fb.js",
     "runtime-main.js.map": "/puppy_friends/static/js/runtime-main.51bc07fb.js.map",
     "static/css/2.3c03f26f.chunk.css": "/puppy_friends/static/css/2.3c03f26f.chunk.css",
     "static/js/2.de095742.chunk.js": "/puppy_friends/static/js/2.de095742.chunk.js",
     "static/js/2.de095742.chunk.js.map": "/puppy_friends/static/js/2.de095742.chunk.js.map",
     "index.html": "/puppy_friends/index.html",
-    "precache-manifest.47e4d8a0b656ddb0b3492eeec47d5d8a.js": "/puppy_friends/precache-manifest.47e4d8a0b656ddb0b3492eeec47d5d8a.js",
+    "precache-manifest.f8d580793ce8f6dd41c69920920d1817.js": "/puppy_friends/precache-manifest.f8d580793ce8f6dd41c69920920d1817.js",
     "service-worker.js": "/puppy_friends/service-worker.js",
     "static/css/2.3c03f26f.chunk.css.map": "/puppy_friends/static/css/2.3c03f26f.chunk.css.map",
     "static/css/main.9684827e.chunk.css.map": "/puppy_friends/static/css/main.9684827e.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.3c03f26f.chunk.css",
     "static/js/2.de095742.chunk.js",
     "static/css/main.9684827e.chunk.css",
-    "static/js/main.3df445f9.chunk.js"
+    "static/js/main.c6c17733.chunk.js"
   ]
 }
